@@ -1,5 +1,5 @@
 {
-  "name": "optimal-select",
+  "name": "@tencent/optimal-select",
   "description": "Get efficient & robust CSS selectors for HTML elements",
   "version": "4.0.1",
   "author": "Stefan Dühring | Autarc <autarc@gmail.com>",
@@ -40,7 +40,6 @@
     "url": "https://github.com/Autarc/optimal-select.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
     "check": "npm outdated -depth 0",
     "build": "NODE_ENV=production node build",
     "dev": "NODE_ENV=development node build",
